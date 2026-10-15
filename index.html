@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Is Linux Ready? — Popular Apps on Linux</title>
+<style>
+  :root {
+    --bg: #f6f7f9; --card: #ffffff; --text: #1a1d21; --muted: #6b7280;
+    --border: #e5e7eb; --green: #16a34a; --green-bg: #dcfce7;
+    --teal: #0d9488; --teal-bg: #ccfbf1;
+    --yellow: #a16207; --yellow-bg: #fef9c3;
+    --orange: #c2410c; --orange-bg: #ffedd5;
+    --red: #dc2626; --red-bg: #fee2e2;
+  }
+  [data-theme="dark"] {
+    --bg: #0f1115; --card: #1a1e26; --text: #e8eaf0; --muted: #9aa3b2;
+    --border: #2a3040;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, sans-serif; background: var(--bg); color: var(--text); }
+  header { background: linear-gradient(135deg, #1a1d21 0%, #2d333b 60%, #e95420 160%); color: #fff; padding: 48px 24px 36px; text-align: center; }
+  header h1 { margin: 0; font-size: 2.4rem; letter-spacing: -0.02em; }
+  header h1 span { color: #e95420; }
+  header p { opacity: 0.85; max-width: 640px; margin: 12px auto 0; line-height: 1.5; }
+  .stats { display: flex; gap: 12px; justify-content: center; margin-top: 24px; flex-wrap: wrap; }
+  .stat { background: rgba(255,255,255,0.12); backdrop-filter: blur(6px); border: 1px solid rgba(255,255,255,0.2); border-radius: 12px; padding: 10px 18px; min-width: 120px; }
+  .stat b { display: block; font-size: 1.4rem; }
+  .stat small { opacity: 0.8; }
+  .toolbar { max-width: 1080px; margin: -22px auto 0; padding: 0 20px; }
+  .bar { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 14px; display: flex; gap: 10px; flex-wrap: wrap; box-shadow: 0 8px 24px rgba(0,0,0,0.08); }
+  .bar input, .bar select { font-size: 1rem; padding: 10px 12px; border-radius: 10px; border: 1px solid var(--border); background: var(--bg); color: var(--text); }
+  .bar input { flex: 2; min-width: 200px; }
+  .cats { max-width: 1080px; margin: 14px auto 0; padding: 0 20px; display: flex; gap: 8px; flex-wrap: wrap; }
+  .cat { border: 1px solid var(--border); background: var(--card); color: var(--text); border-radius: 999px; padding: 6px 14px; cursor: pointer; font-size: 0.9rem; }
+  .cat.active { background: #1a1d21; color: #fff; border-color: #1a1d21; }
+  [data-theme="dark"] .cat.active { background: #e95420; border-color: #e95420; }
+  main { max-width: 1080px; margin: 18px auto 60px; padding: 0 20px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 16px; cursor: pointer; transition: transform .12s ease, box-shadow .12s ease; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 10px 24px rgba(0,0,0,0.1); }
+  .row { display: flex; gap: 12px; align-items: center; }
+  .avatar { width: 44px; height: 44px; border-radius: 12px; display: flex; align-items: center; justify-content: center; background: #fff; border: 1px solid var(--border); flex-shrink: 0; overflow: hidden; }
+  .avatar img { width: 28px; height: 28px; object-fit: contain; }
+  .avatar .letter { font-weight: 800; font-size: 1.2rem; color: #1a1d21; }
+  .name { font-weight: 700; }
+  .dev { color: var(--muted); font-size: 0.85rem; }
+  .badge { display: inline-block; margin-top: 10px; font-size: 0.8rem; font-weight: 700; border-radius: 999px; padding: 4px 10px; }
+  .native { background: var(--green-bg); color: var(--green); }
+  .container { background: var(--teal-bg); color: var(--teal); }
+  .web { background: var(--yellow-bg); color: var(--yellow); }
+  .wine { background: var(--orange-bg); color: var(--orange); }
+  .none { background: var(--red-bg); color: var(--red); }
+  .meta { color: var(--muted); font-size: 0.85rem; margin-top: 8px; }
+  .detail { display: none; margin-top: 10px; font-size: 0.9rem; line-height: 1.5; border-top: 1px dashed var(--border); padding-top: 10px; }
+  .card.open .detail { display: block; }
+  .alt { background: var(--bg); border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px; margin-top: 8px; }
+  footer { text-align: center; color: var(--muted); padding: 30px; font-size: 0.9rem; }
+  .top-actions { position: absolute; top: 16px; right: 16px; display: flex; gap: 8px; }
+  .top-actions button { border: 1px solid rgba(255,255,255,.3); background: rgba(255,255,255,.12); color: #fff; border-radius: 999px; padding: 6px 14px; cursor: pointer; }
+  .empty { text-align: center; color: var(--muted); padding: 40px; }
+</style>
+</head>
+<body>
+<header>
+  <div class="top-actions"><button id="themeBtn">🌙 Dark</button></div>
+  <h1>Is <span>Linux</span> Ready?</h1>
+  <p>The complete guide to popular apps on Linux — do they run natively, via Flatpak, on the web, through Wine/Proton, or not at all? Inspired by <em>isapplesiliconready.com</em>.</p>
+  <div class="stats">
+    <div class="stat"><b id="sTotal">–</b><small>apps tracked</small></div>
+    <div class="stat"><b id="sNative">–</b><small>native support</small></div>
+    <div class="stat"><b id="sNone">–</b><small>no support</small></div>
+    <div class="stat"><b id="sPct">–</b><small>usable on Linux*</small></div>
+  </div>
+</header>
+
+<div class="toolbar">
+  <div class="bar">
+    <input id="q" type="search" placeholder="Search apps… e.g. Photoshop, Notion, Steam" />
+    <select id="status">
+      <option value="">All statuses</option>
+      <option value="native">Native Linux support</option>
+      <option value="container">Flatpak / Snap</option>
+      <option value="web">Web app / Unofficial wrapper</option>
+      <option value="wine">Works via Wine / Proton</option>
+      <option value="none">No support</option>
+    </select>
+  </div>
+</div>
+<div class="cats" id="cats"></div>
+<main><div class="grid" id="grid"></div></main>
+<footer>
+  * "Usable" = native, Flatpak/Snap, web app, or Wine/Proton. Demo data — edit the <code>APPS</code> array in this file to add apps.<br/>
+  Built as a static single-file site. No backend needed.
+</footer>
+
+<script>
+const STATUS_LABEL = {
+  native: "Native Linux support",
+  container: "Flatpak / Snap",
+  web: "Web app / Unofficial",
+  wine: "Works via Wine / Proton",
+  none: "No support"
+};
+
+let APPS = [];
+let LOGOS = {};
+
+const grid = document.getElementById("grid");
+const catsEl = document.getElementById("cats");
+const q = document.getElementById("q");
+const statusSel = document.getElementById("status");
+let activeCat = "";
+function buildCats(){
+const cats = ["", ...new Set(APPS.map(a => a.cat))];
+catsEl.innerHTML = cats.map(c =>
+  `<button class="cat${c===activeCat?" active":""}" data-cat="${c}">${c===""?"All":c}</button>`
+).join("");
+catsEl.querySelectorAll(".cat").forEach(b => b.onclick = () => {
+  activeCat = b.dataset.cat;
+  catsEl.querySelectorAll(".cat").forEach(x => x.classList.toggle("active", x===b));
+  render();
+});
+}
+
+// Real brand logos via Simple Icons CDN (colored where available),
+// with Google favicon + letter fallbacks if a logo fails to load.
+// Logos + app data live in apps.json — edit that file to add apps.
+// Logo failover: primary CDN -> Google favicon -> letter tile.
+document.addEventListener("error", e => {
+  const img = e.target;
+  if (!img || img.tagName !== "IMG" || !img.dataset.app) return;
+  const L = LOGOS[img.dataset.app];
+  if (img.dataset.step === "fav") {
+    const s = document.createElement("span");
+    s.className = "letter";
+    s.textContent = img.dataset.app[0];
+    img.replaceWith(s);
+  } else if (L) {
+    img.dataset.step = "fav";
+    img.src = "https://www.google.com/s2/favicons?domain=" + L.d + "&sz=128";
+  }
+}, true);
+
+function render(){
+  const query = q.value.trim().toLowerCase();
+  const st = statusSel.value;
+  const list = APPS.filter(a =>
+    (!activeCat || a.cat === activeCat) &&
+    (!st || a.status === st) &&
+    (!query || (a.name+" "+a.dev+" "+(a.alt||"")).toLowerCase().includes(query))
+  );
+  grid.innerHTML = list.length ? list.map((a,i) => `
+    <div class="card" data-i="${i}">
+      <div class="row">
+        <div class="avatar"><img data-app="${a.name}" src="${(LOGOS[a.name]||{}).u||""}" alt="${a.name} logo" loading="lazy"></div>
+        <div><div class="name">${a.name}</div><div class="dev">${a.dev} · ${a.cat}</div></div>
+      </div>
+      <span class="badge ${a.status}">${a.status==="none"?"✕":"✓"} ${STATUS_LABEL[a.status]}</span>
+      <div class="meta">${a.version} · updated ${a.updated}</div>
+      <div class="detail"><div>${a.detail}</div>
+        ${a.alt?`<div class="alt"><b>Linux alternative:</b> ${a.alt}</div>`:""}
+      </div>
+    </div>`).join("")
+    : `<div class="empty">No apps match. Try clearing search/filters.</div>`;
+  grid.querySelectorAll(".card").forEach(c => c.onclick = () => c.classList.toggle("open"));
+
+  // stats
+  const n = APPS.length;
+  const nat = APPS.filter(a=>a.status==="native"||a.status==="container").length;
+  const no = APPS.filter(a=>a.status==="none").length;
+  const usable = APPS.filter(a=>a.status!=="none").length;
+  document.getElementById("sTotal").textContent = n;
+  document.getElementById("sNative").textContent = nat;
+  document.getElementById("sNone").textContent = no;
+  document.getElementById("sPct").textContent = Math.round(usable/n*100)+"%";
+}
+q.oninput = render; statusSel.onchange = render;
+fetch("apps.json").then(r=>r.json()).then(d=>{APPS=d.apps;LOGOS=d.logos;buildCats();render();});
+
+// theme
+const btn = document.getElementById("themeBtn");
+btn.onclick = () => {
+  const d = document.documentElement.dataset.theme === "dark";
+  document.documentElement.dataset.theme = d ? "" : "dark";
+  btn.textContent = d ? "🌙 Dark" : "☀️ Light";
+};
+</script>
+</body>
+</html>

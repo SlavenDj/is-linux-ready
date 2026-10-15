@@ -1,0 +1,2498 @@
+{
+  "apps": [
+    {
+      "name": "Google Chrome",
+      "dev": "Google",
+      "cat": "Browsers",
+      "status": "native",
+      "version": ".deb / .rpm official",
+      "updated": "2026-09",
+      "detail": "Official Google builds for Linux, auto-updates included.",
+      "alt": ""
+    },
+    {
+      "name": "Firefox",
+      "dev": "Mozilla",
+      "cat": "Browsers",
+      "status": "native",
+      "version": "Preinstalled on most distros",
+      "updated": "2026-09",
+      "detail": "First-class Linux citizen, Wayland support is excellent.",
+      "alt": ""
+    },
+    {
+      "name": "Brave",
+      "dev": "Brave",
+      "cat": "Browsers",
+      "status": "native",
+      "version": "Official repo",
+      "updated": "2026-08",
+      "detail": "Official Linux repo + Flatpak.",
+      "alt": ""
+    },
+    {
+      "name": "Microsoft Edge",
+      "dev": "Microsoft",
+      "cat": "Browsers",
+      "status": "native",
+      "version": "Official .deb/.rpm",
+      "updated": "2025-11",
+      "detail": "Microsoft ships official Linux builds.",
+      "alt": ""
+    },
+    {
+      "name": "Safari",
+      "dev": "Apple",
+      "cat": "Browsers",
+      "status": "none",
+      "version": "—",
+      "updated": "2026-01",
+      "detail": "Apple does not ship Safari for Linux and never will.",
+      "alt": "Firefox, Chrome, GNOME Web"
+    },
+    {
+      "name": "Arc",
+      "dev": "The Browser Company",
+      "cat": "Browsers",
+      "status": "none",
+      "version": "—",
+      "updated": "2026-10",
+      "detail": "Mac/Windows only; active development stopped in 2025 (security updates only, now Atlassian-owned). No Linux client.",
+      "alt": "Zen Browser (native, Arc-like)"
+    },
+    {
+      "name": "VS Code",
+      "dev": "Microsoft",
+      "cat": "Developer",
+      "status": "native",
+      "version": "Official .deb/.rpm",
+      "updated": "2026-09",
+      "detail": "Official Linux builds, Copilot and extensions all work.",
+      "alt": ""
+    },
+    {
+      "name": "Sublime Text",
+      "dev": "Sublime HQ",
+      "cat": "Developer",
+      "status": "native",
+      "version": "Official repo",
+      "updated": "2026-06",
+      "detail": "Native Linux build with official apt repo.",
+      "alt": ""
+    },
+    {
+      "name": "IntelliJ IDEA",
+      "dev": "JetBrains",
+      "cat": "Developer",
+      "status": "native",
+      "version": "Tarball / Toolbox",
+      "updated": "2026-08",
+      "detail": "JetBrains Toolbox runs great on Linux.",
+      "alt": ""
+    },
+    {
+      "name": "Docker Desktop",
+      "dev": "Docker",
+      "cat": "Developer",
+      "status": "native",
+      "version": "Official .deb",
+      "updated": "2026-05",
+      "detail": "Docker Desktop for Linux exists, or just use Docker Engine natively.",
+      "alt": ""
+    },
+    {
+      "name": "Postman",
+      "dev": "Postman",
+      "cat": "Developer",
+      "status": "native",
+      "version": "Snap / tarball",
+      "updated": "2026-04",
+      "detail": "Official Snap and manual tarball.",
+      "alt": ""
+    },
+    {
+      "name": "GitHub Desktop",
+      "dev": "GitHub",
+      "cat": "Developer",
+      "status": "web",
+      "version": "Community fork only",
+      "updated": "2026-03",
+      "detail": "No official client. Community 'shiftkey' fork + Flatpak works well.",
+      "alt": "GitKraken, Sublime Merge, lazygit"
+    },
+    {
+      "name": "Figma",
+      "dev": "Figma",
+      "cat": "Design",
+      "status": "web",
+      "version": "Web + unofficial Electron",
+      "updated": "2026-09",
+      "detail": "No official desktop app; browser version is full-featured. Unofficial Electron wrappers exist on Flathub.",
+      "alt": "Penpot (open-source, native web)"
+    },
+    {
+      "name": "Adobe Photoshop",
+      "dev": "Adobe",
+      "cat": "Design",
+      "status": "none",
+      "version": "—",
+      "updated": "2026-10",
+      "detail": "No Linux version. Community Wine patches (2026) can install CC + Photoshop 2021/2025, but fragile and unofficial.",
+      "alt": "GIMP, Krita, Photopea (web)"
+    },
+    {
+      "name": "Adobe Illustrator",
+      "dev": "Adobe",
+      "cat": "Design",
+      "status": "none",
+      "version": "—",
+      "updated": "2026-02",
+      "detail": "No Linux version.",
+      "alt": "Inkscape, Figma, Affinity via Wine (hit-or-miss)"
+    },
+    {
+      "name": "Blender",
+      "dev": "Blender Foundation",
+      "cat": "Design",
+      "status": "native",
+      "version": "Repo / Flatpak / Steam",
+      "updated": "2026-09",
+      "detail": "Linux is a first-class platform for Blender.",
+      "alt": ""
+    },
+    {
+      "name": "GIMP",
+      "dev": "GIMP Team",
+      "cat": "Design",
+      "status": "native",
+      "version": "Repo / Flatpak",
+      "updated": "2026-07",
+      "detail": "Free, open-source, native everywhere.",
+      "alt": ""
+    },
+    {
+      "name": "Krita",
+      "dev": "KDE",
+      "cat": "Design",
+      "status": "native",
+      "version": "Repo / AppImage",
+      "updated": "2026-07",
+      "detail": "KDE-native painting app.",
+      "alt": ""
+    },
+    {
+      "name": "DaVinci Resolve",
+      "dev": "Blackmagic",
+      "cat": "Design",
+      "status": "native",
+      "version": "Official .run installer",
+      "updated": "2026-06",
+      "detail": "Official Linux release, but picky about GPUs/codecs on some distros.",
+      "alt": "Kdenlive, Shotcut"
+    },
+    {
+      "name": "Canva",
+      "dev": "Canva",
+      "cat": "Design",
+      "status": "web",
+      "version": "Web app",
+      "updated": "2026-01",
+      "detail": "Fully usable in the browser, no desktop app needed.",
+      "alt": ""
+    },
+    {
+      "name": "Affinity Photo",
+      "dev": "Serif (Canva)",
+      "cat": "Design",
+      "status": "wine",
+      "version": "FREE! Via Wine (unofficial)",
+      "updated": "2026-10",
+      "detail": "FREE since Canva's Oct 2025 relaunch (only AI tools paywalled). No native Linux build, but runs well via Wine — see the <a href=\"https://github.com/ryzendew/AffinityOnLinux\" target=\"_blank\" rel=\"noopener\">AffinityOnLinux</a> installer scripts / Lutris guide (one-time login to download).",
+      "alt": "GIMP, Krita, Photopea (web)"
+    },
+    {
+      "name": "Microsoft Office",
+      "dev": "Microsoft",
+      "cat": "Productivity",
+      "status": "web",
+      "version": "Web / PWA only",
+      "updated": "2026-03",
+      "detail": "No desktop suite. Office on the web + PWA works offline-ish.",
+      "alt": "LibreOffice, OnlyOffice (native)"
+    },
+    {
+      "name": "LibreOffice",
+      "dev": "TDF",
+      "cat": "Productivity",
+      "status": "native",
+      "version": "Preinstalled",
+      "updated": "2026-09",
+      "detail": "The default native office suite.",
+      "alt": ""
+    },
+    {
+      "name": "Notion",
+      "dev": "Notion Labs",
+      "cat": "Productivity",
+      "status": "web",
+      "version": "Web / unofficial Electron",
+      "updated": "2026-05",
+      "detail": "No official Linux app. Web is complete; unofficial clients on Flathub.",
+      "alt": "Obsidian, AppFlowy (native)"
+    },
+    {
+      "name": "Obsidian",
+      "dev": "Dynalist",
+      "cat": "Productivity",
+      "status": "native",
+      "version": "AppImage / Flatpak",
+      "updated": "2026-08",
+      "detail": "Official Linux builds (AppImage, Flatpak, Snap).",
+      "alt": ""
+    },
+    {
+      "name": "Dropbox",
+      "dev": "Dropbox",
+      "cat": "Productivity",
+      "status": "native",
+      "version": "Official .deb/.rpm",
+      "updated": "2026-04",
+      "detail": "Official client, though Wayland tray icons can be fiddly.",
+      "alt": "Nextcloud (native)"
+    },
+    {
+      "name": "1Password",
+      "dev": "AgileBits",
+      "cat": "Productivity",
+      "status": "native",
+      "version": "Official .deb / Snap",
+      "updated": "2026-06",
+      "detail": "Official Linux app, feature parity is good.",
+      "alt": "Bitwarden, KeePassXC"
+    },
+    {
+      "name": "Evernote",
+      "dev": "Bending Spoons",
+      "cat": "Productivity",
+      "status": "none",
+      "version": "—",
+      "updated": "2025-12",
+      "detail": "No Linux client.",
+      "alt": "Obsidian, Joplin, Notesnook"
+    },
+    {
+      "name": "Slack",
+      "dev": "Salesforce",
+      "cat": "Communication",
+      "status": "native",
+      "version": ".deb / Snap",
+      "updated": "2026-05",
+      "detail": "Official Linux builds exist.",
+      "alt": ""
+    },
+    {
+      "name": "Discord",
+      "dev": "Discord",
+      "cat": "Communication",
+      "status": "native",
+      "version": ".deb / Flatpak",
+      "updated": "2026-08",
+      "detail": "Official .deb + community Flatpak. Screen share on Wayland now works.",
+      "alt": ""
+    },
+    {
+      "name": "Zoom",
+      "dev": "Zoom",
+      "cat": "Communication",
+      "status": "native",
+      "version": "Official .deb/.rpm",
+      "updated": "2026-07",
+      "detail": "Official client, works fine.",
+      "alt": ""
+    },
+    {
+      "name": "Microsoft Teams",
+      "dev": "Microsoft",
+      "cat": "Communication",
+      "status": "web",
+      "version": "PWA only",
+      "updated": "2026-01",
+      "detail": "Microsoft killed the Linux desktop app; use the PWA in Edge/Chrome.",
+      "alt": ""
+    },
+    {
+      "name": "Telegram",
+      "dev": "Telegram",
+      "cat": "Communication",
+      "status": "native",
+      "version": "Repo / Flatpak",
+      "updated": "2026-09",
+      "detail": "Excellent native client.",
+      "alt": ""
+    },
+    {
+      "name": "Signal",
+      "dev": "Signal",
+      "cat": "Communication",
+      "status": "native",
+      "version": "Official repo / Flatpak",
+      "updated": "2026-08",
+      "detail": "Official Linux desktop app.",
+      "alt": ""
+    },
+    {
+      "name": "WhatsApp",
+      "dev": "Meta",
+      "cat": "Communication",
+      "status": "web",
+      "version": "Web / unofficial",
+      "updated": "2026-02",
+      "detail": "No official app; web.whatsapp.com or unofficial wrappers.",
+      "alt": "Telegram, Signal"
+    },
+    {
+      "name": "Spotify",
+      "dev": "Spotify",
+      "cat": "Media",
+      "status": "native",
+      "version": "Snap / Flatpak",
+      "updated": "2026-06",
+      "detail": "Official Snap, works well.",
+      "alt": ""
+    },
+    {
+      "name": "VLC",
+      "dev": "VideoLAN",
+      "cat": "Media",
+      "status": "native",
+      "version": "Everywhere",
+      "updated": "2026-09",
+      "detail": "If it plays anywhere, it plays on Linux.",
+      "alt": ""
+    },
+    {
+      "name": "OBS Studio",
+      "dev": "OBS Project",
+      "cat": "Media",
+      "status": "native",
+      "version": "Repo / Flatpak",
+      "updated": "2026-08",
+      "detail": "First-class Linux support, NVENC/VA-API work.",
+      "alt": ""
+    },
+    {
+      "name": "Apple Music / iTunes",
+      "dev": "Apple",
+      "cat": "Media",
+      "status": "web",
+      "version": "Web player",
+      "updated": "2026-01",
+      "detail": "No native app; music.apple.com in browser.",
+      "alt": "Spotify, VLC, Lollypop"
+    },
+    {
+      "name": "Steam",
+      "dev": "Valve",
+      "cat": "Gaming",
+      "status": "native",
+      "version": "Official .deb / Flatpak",
+      "updated": "2026-09",
+      "detail": "Native client + Proton runs ~80% of Windows games.",
+      "alt": ""
+    },
+    {
+      "name": "Epic Games Launcher",
+      "dev": "Epic Games",
+      "cat": "Gaming",
+      "status": "native",
+      "version": "Official native Preview (Oct 2026)",
+      "updated": "2026-10",
+      "detail": "Native Linux Preview since Oct 14, 2026 (Ubuntu 22.04+, Fedora 43+, Debian 12+). Rebuilt Tauri client with integrated GE-Proton for Windows games. Fortnite on Linux coming via new EAC Linux v2. Heroic still works as alternative.",
+      "alt": "Heroic Games Launcher"
+    },
+    {
+      "name": "GOG Galaxy",
+      "dev": "GOG",
+      "cat": "Gaming",
+      "status": "wine",
+      "version": "Via Heroic / Minigalaxy",
+      "updated": "2026-03",
+      "detail": "No native client; Heroic or Minigalaxy cover it.",
+      "alt": ""
+    },
+    {
+      "name": "Minecraft Java",
+      "dev": "Mojang",
+      "cat": "Gaming",
+      "status": "native",
+      "version": "Official launcher .deb",
+      "updated": "2026-07",
+      "detail": "Java Edition runs great. Bedrock needs workarounds.",
+      "alt": "Prism Launcher"
+    },
+    {
+      "name": "Adobe Premiere",
+      "dev": "Adobe",
+      "cat": "Design",
+      "status": "none",
+      "version": "—",
+      "updated": "2026-02",
+      "detail": "No Linux version.",
+      "alt": "DaVinci Resolve, Kdenlive, Shotcut"
+    },
+    {
+      "name": "Opera",
+      "dev": "Opera",
+      "cat": "Browsers",
+      "status": "native",
+      "version": "Official .deb/.rpm + Snap",
+      "updated": "2026-09",
+      "detail": "Official Linux builds with free VPN and ad-blocker built in.",
+      "alt": ""
+    },
+    {
+      "name": "Vivaldi",
+      "dev": "Vivaldi",
+      "cat": "Browsers",
+      "status": "native",
+      "version": "Official .deb/.rpm",
+      "updated": "2026-09",
+      "detail": "Power-user browser; Linux is a first-class platform.",
+      "alt": ""
+    },
+    {
+      "name": "Cursor",
+      "dev": "Anysphere",
+      "cat": "Developer",
+      "status": "native",
+      "version": "Official AppImage / .deb",
+      "updated": "2026-09",
+      "detail": "AI-first code editor with official Linux builds.",
+      "alt": ""
+    },
+    {
+      "name": "Zed",
+      "dev": "Zed Industries",
+      "cat": "Developer",
+      "status": "native",
+      "version": "Official .deb / tarball",
+      "updated": "2026-08",
+      "detail": "Blazing-fast editor; official Linux builds since 2024.",
+      "alt": ""
+    },
+    {
+      "name": "Android Studio",
+      "dev": "Google",
+      "cat": "Developer",
+      "status": "native",
+      "version": "Official tarball / Snap",
+      "updated": "2026-08",
+      "detail": "Google's official IDE ships Linux builds and a Snap.",
+      "alt": ""
+    },
+    {
+      "name": "PyCharm",
+      "dev": "JetBrains",
+      "cat": "Developer",
+      "status": "native",
+      "version": "Toolbox / Snap / Flatpak",
+      "updated": "2026-08",
+      "detail": "Full JetBrains Linux support.",
+      "alt": "VS Code, Zed"
+    },
+    {
+      "name": "DBeaver",
+      "dev": "DBeaver Corp",
+      "cat": "Developer",
+      "status": "native",
+      "version": "Official .deb / Flatpak",
+      "updated": "2026-07",
+      "detail": "Universal open-source SQL client, native on Linux.",
+      "alt": ""
+    },
+    {
+      "name": "Linear",
+      "dev": "Linear",
+      "cat": "Developer",
+      "status": "web",
+      "version": "Web app",
+      "updated": "2026-03",
+      "detail": "Desktop app is Mac/Windows only; web app is fully featured.",
+      "alt": "Jira, Plane (self-hosted)"
+    },
+    {
+      "name": "Inkscape",
+      "dev": "Inkscape",
+      "cat": "Design",
+      "status": "native",
+      "version": "Repo / Flatpak",
+      "updated": "2026-09",
+      "detail": "The open-source vector standard, native everywhere.",
+      "alt": ""
+    },
+    {
+      "name": "After Effects",
+      "dev": "Adobe",
+      "cat": "Design",
+      "status": "none",
+      "version": "—",
+      "updated": "2026-02",
+      "detail": "No Linux version and Wine support is poor.",
+      "alt": "DaVinci Resolve Fusion, Natron"
+    },
+    {
+      "name": "Lightroom",
+      "dev": "Adobe",
+      "cat": "Design",
+      "status": "none",
+      "version": "—",
+      "updated": "2026-02",
+      "detail": "No Linux version.",
+      "alt": "Darktable, RawTherapee"
+    },
+    {
+      "name": "Darktable",
+      "dev": "darktable",
+      "cat": "Design",
+      "status": "native",
+      "version": "Repo / Flatpak",
+      "updated": "2026-07",
+      "detail": "Open-source RAW photo workflow, native on Linux.",
+      "alt": ""
+    },
+    {
+      "name": "CapCut",
+      "dev": "ByteDance",
+      "cat": "Design",
+      "status": "none",
+      "version": "—",
+      "updated": "2026-04",
+      "detail": "No Linux desktop app (mobile + web only).",
+      "alt": "Kdenlive, Shotcut, DaVinci Resolve"
+    },
+    {
+      "name": "Thunderbird",
+      "dev": "Mozilla",
+      "cat": "Productivity",
+      "status": "native",
+      "version": "Repo / Flatpak",
+      "updated": "2026-09",
+      "detail": "Free mail/calendar client, often preinstalled.",
+      "alt": ""
+    },
+    {
+      "name": "Bitwarden",
+      "dev": "Bitwarden",
+      "cat": "Productivity",
+      "status": "native",
+      "version": "AppImage / Snap / Flatpak",
+      "updated": "2026-08",
+      "detail": "Official Linux builds in every package format.",
+      "alt": "KeePassXC"
+    },
+    {
+      "name": "Google Drive",
+      "dev": "Google",
+      "cat": "Productivity",
+      "status": "web",
+      "version": "Web + unofficial sync",
+      "updated": "2026-05",
+      "detail": "No official sync client; use the web, rclone, or Insync.",
+      "alt": "Nextcloud, Dropbox (native)"
+    },
+    {
+      "name": "Todoist",
+      "dev": "Doist",
+      "cat": "Productivity",
+      "status": "native",
+      "version": "Official Snap",
+      "updated": "2026-04",
+      "detail": "Official Snap package for Linux.",
+      "alt": ""
+    },
+    {
+      "name": "Trello",
+      "dev": "Atlassian",
+      "cat": "Productivity",
+      "status": "web",
+      "version": "Web / PWA",
+      "updated": "2026-01",
+      "detail": "No desktop app for Linux; web version is complete.",
+      "alt": "Taiga, Focalboard"
+    },
+    {
+      "name": "Audacity",
+      "dev": "Muse Group",
+      "cat": "Media",
+      "status": "native",
+      "version": "Repo / Flatpak",
+      "updated": "2026-08",
+      "detail": "Classic open-source audio editor, native.",
+      "alt": ""
+    },
+    {
+      "name": "REAPER",
+      "dev": "Cockos",
+      "cat": "Media",
+      "status": "native",
+      "version": "Official Linux builds",
+      "updated": "2026-07",
+      "detail": "Pro DAW with official Linux builds.",
+      "alt": ""
+    },
+    {
+      "name": "FL Studio",
+      "dev": "Image-Line",
+      "cat": "Media",
+      "status": "wine",
+      "version": "Via Wine / Bottles (unofficial)",
+      "updated": "2026-10",
+      "detail": "No native client, but runs via Wine/Bottles per community guides; FL Studio Web (beta) in browser.",
+      "alt": "Bitwig Studio, REAPER, LMMS"
+    },
+    {
+      "name": "HandBrake",
+      "dev": "HandBrake Team",
+      "cat": "Media",
+      "status": "native",
+      "version": "Repo / Flatpak",
+      "updated": "2026-08",
+      "detail": "Video transcoder, native on Linux.",
+      "alt": ""
+    },
+    {
+      "name": "Stremio",
+      "dev": "Stremio",
+      "cat": "Media",
+      "status": "native",
+      "version": "Official Linux builds",
+      "updated": "2026-06",
+      "detail": "Streaming hub with official Linux releases.",
+      "alt": "Kodi, Jellyfin"
+    },
+    {
+      "name": "Lutris",
+      "dev": "Lutris",
+      "cat": "Gaming",
+      "status": "native",
+      "version": "Repo / Flatpak",
+      "updated": "2026-09",
+      "detail": "Open gaming platform that manages Wine/Proton for you.",
+      "alt": ""
+    },
+    {
+      "name": "Heroic Launcher",
+      "dev": "Heroic",
+      "cat": "Gaming",
+      "status": "native",
+      "version": "AppImage / Flatpak",
+      "updated": "2026-09",
+      "detail": "Native Epic/GOG/Amazon launcher for Linux.",
+      "alt": ""
+    },
+    {
+      "name": "Battle.net",
+      "dev": "Blizzard",
+      "cat": "Gaming",
+      "status": "wine",
+      "version": "Via Lutris / Wine",
+      "updated": "2026-04",
+      "detail": "No native client; installs via Lutris with Wine.",
+      "alt": ""
+    },
+    {
+      "name": "Roblox",
+      "dev": "Roblox Corp",
+      "cat": "Gaming",
+      "status": "container",
+      "version": "Sober (Flatpak, unofficial)",
+      "updated": "2026-10",
+      "detail": "No official client; Windows build blocked under Wine by Hyperion. But Sober (Android runtime via Flathub) and open-source Cordial run it well.",
+      "alt": "Minetest, web games"
+    },
+    {
+      "name": "Ollama",
+      "dev": "Ollama",
+      "cat": "AI",
+      "status": "native",
+      "version": "Official install script",
+      "updated": "2026-09",
+      "detail": "Run local LLMs; Linux is a first-class platform.",
+      "alt": ""
+    },
+    {
+      "name": "ChatGPT",
+      "dev": "OpenAI",
+      "cat": "AI",
+      "status": "web",
+      "version": "Web + unofficial wrappers",
+      "updated": "2026-06",
+      "detail": "No official desktop app for Linux; web version is complete.",
+      "alt": "Ollama, Claude (web)"
+    },
+    {
+      "name": "Claude",
+      "dev": "Anthropic",
+      "cat": "AI",
+      "status": "web",
+      "version": "Web app",
+      "updated": "2026-06",
+      "detail": "No Linux desktop app; web app is complete.",
+      "alt": ""
+    },
+    {
+      "name": "Kdenlive",
+      "dev": "KDE",
+      "cat": "Design",
+      "status": "native",
+      "version": "Repo / Flatpak",
+      "updated": "2026-09",
+      "detail": "Pro-grade open-source video editor, KDE-native.",
+      "alt": ""
+    },
+    {
+      "name": "Aseprite",
+      "dev": "Igara Studio",
+      "cat": "Design",
+      "status": "native",
+      "version": "Official builds / Steam",
+      "updated": "2026-07",
+      "detail": "Beloved pixel-art editor with official Linux builds.",
+      "alt": "Libresprite (free fork)"
+    },
+    {
+      "name": "Penpot",
+      "dev": "Kaleidos",
+      "cat": "Design",
+      "status": "web",
+      "version": "Web / self-hosted",
+      "updated": "2026-08",
+      "detail": "Open-source Figma alternative in the browser; self-hostable.",
+      "alt": ""
+    },
+    {
+      "name": "Sketch",
+      "dev": "Sketch",
+      "cat": "Design",
+      "status": "none",
+      "version": "—",
+      "updated": "2026-01",
+      "detail": "Mac only, no web app and no Linux plans.",
+      "alt": "Figma, Penpot"
+    },
+    {
+      "name": "Ableton Live",
+      "dev": "Ableton",
+      "cat": "Media",
+      "status": "wine",
+      "version": "Via Wine patches (unofficial)",
+      "updated": "2026-10",
+      "detail": "No native build, but Live 12 + Push run near-natively via community Wine patches (ableton-linux).",
+      "alt": "Bitwig Studio, REAPER, Ardour"
+    },
+    {
+      "name": "Bitwig Studio",
+      "dev": "Bitwig",
+      "cat": "Media",
+      "status": "native",
+      "version": "Official .deb / Flatpak",
+      "updated": "2026-08",
+      "detail": "Pro DAW with day-one official Linux support.",
+      "alt": ""
+    },
+    {
+      "name": "Kodi",
+      "dev": "XBMC Foundation",
+      "cat": "Media",
+      "status": "native",
+      "version": "Repo / Flatpak",
+      "updated": "2026-09",
+      "detail": "The classic home-theater app, native everywhere.",
+      "alt": ""
+    },
+    {
+      "name": "Plex",
+      "dev": "Plex Inc.",
+      "cat": "Media",
+      "status": "native",
+      "version": "Official Snap / Flatpak",
+      "updated": "2026-07",
+      "detail": "Official Linux player and server builds.",
+      "alt": "Jellyfin"
+    },
+    {
+      "name": "WeChat",
+      "dev": "Tencent",
+      "cat": "Communication",
+      "status": "native",
+      "version": "Official .deb / .rpm / AppImage",
+      "updated": "2026-10",
+      "detail": "Tencent ships an official native Linux client since late 2024 (x86, ARM, LoongArch).",
+      "alt": ""
+    },
+    {
+      "name": "FaceTime",
+      "dev": "Apple",
+      "cat": "Communication",
+      "status": "none",
+      "version": "—",
+      "updated": "2026-01",
+      "detail": "Apple-only; joining a call from a browser link works for guests only.",
+      "alt": "Signal, Jitsi, Zoom (native)"
+    },
+    {
+      "name": "Viber",
+      "dev": "Rakuten",
+      "cat": "Communication",
+      "status": "native",
+      "version": "Official .deb / AppImage",
+      "updated": "2026-05",
+      "detail": "Official Linux desktop builds exist.",
+      "alt": ""
+    },
+    {
+      "name": "Element",
+      "dev": "Element",
+      "cat": "Communication",
+      "status": "native",
+      "version": "Official .deb / Flatpak",
+      "updated": "2026-08",
+      "detail": "Matrix chat with official Linux builds.",
+      "alt": ""
+    },
+    {
+      "name": "Outlook",
+      "dev": "Microsoft",
+      "cat": "Productivity",
+      "status": "web",
+      "version": "Web / PWA only",
+      "updated": "2026-03",
+      "detail": "No desktop client for Linux; use the Outlook PWA.",
+      "alt": "Thunderbird, Evolution"
+    },
+    {
+      "name": "OneDrive",
+      "dev": "Microsoft",
+      "cat": "Productivity",
+      "status": "web",
+      "version": "Web + unofficial sync",
+      "updated": "2026-05",
+      "detail": "No official sync client; use web, rclone, or community clients.",
+      "alt": "Nextcloud, Dropbox (native)"
+    },
+    {
+      "name": "OnlyOffice",
+      "dev": "Ascensio",
+      "cat": "Productivity",
+      "status": "native",
+      "version": "Official .deb / Flatpak / Snap",
+      "updated": "2026-09",
+      "detail": "Best MS Office compatibility on Linux, official builds.",
+      "alt": ""
+    },
+    {
+      "name": "Nextcloud",
+      "dev": "Nextcloud",
+      "cat": "Productivity",
+      "status": "native",
+      "version": "Repo / AppImage",
+      "updated": "2026-09",
+      "detail": "Self-hosted Drive/Office with a native sync client.",
+      "alt": ""
+    },
+    {
+      "name": "Joplin",
+      "dev": "Joplin",
+      "cat": "Productivity",
+      "status": "native",
+      "version": "Official AppImage / Snap",
+      "updated": "2026-08",
+      "detail": "Open-source notes with sync, official Linux builds.",
+      "alt": ""
+    },
+    {
+      "name": "Logseq",
+      "dev": "Logseq",
+      "cat": "Productivity",
+      "status": "native",
+      "version": "Official AppImage / Flatpak",
+      "updated": "2026-08",
+      "detail": "Local-first outliner/PKM with official Linux builds.",
+      "alt": ""
+    },
+    {
+      "name": "Raycast",
+      "dev": "Raycast",
+      "cat": "Productivity",
+      "status": "none",
+      "version": "—",
+      "updated": "2026-10",
+      "detail": "Mac + Windows only (Windows v2 left beta in 2026); Raycast confirms no Linux plans.",
+      "alt": "Ulauncher, Albert, Kupfer"
+    },
+    {
+      "name": "KeePassXC",
+      "dev": "KeePassXC",
+      "cat": "Productivity",
+      "status": "native",
+      "version": "Repo / Flatpak / Snap",
+      "updated": "2026-09",
+      "detail": "Free offline password manager, native everywhere.",
+      "alt": ""
+    },
+    {
+      "name": "GitKraken",
+      "dev": "Axosoft",
+      "cat": "Developer",
+      "status": "native",
+      "version": "Official .deb / Snap",
+      "updated": "2026-06",
+      "detail": "Popular Git GUI with official Linux builds.",
+      "alt": "Sublime Merge, lazygit"
+    },
+    {
+      "name": "Bruno",
+      "dev": "Use Bruno",
+      "cat": "Developer",
+      "status": "native",
+      "version": "Official AppImage / Snap",
+      "updated": "2026-08",
+      "detail": "Open-source Postman alternative, official Linux builds.",
+      "alt": ""
+    },
+    {
+      "name": "TablePlus",
+      "dev": "TablePlus",
+      "cat": "Developer",
+      "status": "native",
+      "version": "Official Linux builds",
+      "updated": "2026-10",
+      "detail": "Native Linux client with .deb/.rpm downloads, alongside Mac/Windows/iOS.",
+      "alt": ""
+    },
+    {
+      "name": "itch.io",
+      "dev": "itch corp",
+      "cat": "Gaming",
+      "status": "native",
+      "version": "Official Linux app",
+      "updated": "2026-07",
+      "detail": "Indie store with an official open-source Linux client.",
+      "alt": ""
+    },
+    {
+      "name": "Baldur's Gate 3",
+      "dev": "Larian Studios",
+      "cat": "Gaming",
+      "status": "native",
+      "version": "GOG / Steam Linux build",
+      "updated": "2026-06",
+      "detail": "GOTY RPG with a full native Linux version.",
+      "alt": ""
+    },
+    {
+      "name": "Stardew Valley",
+      "dev": "ConcernedApe",
+      "cat": "Gaming",
+      "status": "native",
+      "version": "GOG / Steam Linux build",
+      "updated": "2026-06",
+      "detail": "Beloved farming sim, native on Linux.",
+      "alt": ""
+    },
+    {
+      "name": "Fortnite",
+      "dev": "Epic Games",
+      "cat": "Gaming",
+      "status": "none",
+      "version": "—",
+      "updated": "2026-05",
+      "detail": "Epic never enabled EAC/Vanguard for Linux; unplayable.",
+      "alt": "Apex via Proton (check status), Fall Guys via Proton"
+    },
+    {
+      "name": "Valorant",
+      "dev": "Riot Games",
+      "cat": "Gaming",
+      "status": "none",
+      "version": "—",
+      "updated": "2026-05",
+      "detail": "Vanguard kernel anti-cheat blocks Linux entirely.",
+      "alt": "Counter-Strike 2 (native)"
+    },
+    {
+      "name": "League of Legends",
+      "dev": "Riot Games",
+      "cat": "Gaming",
+      "status": "none",
+      "version": "—",
+      "updated": "2026-05",
+      "detail": "Playable for years, then Vanguard blocked Linux in 2024.",
+      "alt": "Dota 2 (native)"
+    },
+    {
+      "name": "EA App",
+      "dev": "Electronic Arts",
+      "cat": "Gaming",
+      "status": "wine",
+      "version": "Via Lutris / Wine",
+      "updated": "2026-04",
+      "detail": "No native client; install and play via Lutris.",
+      "alt": ""
+    },
+    {
+      "name": "Ubisoft Connect",
+      "dev": "Ubisoft",
+      "cat": "Gaming",
+      "status": "wine",
+      "version": "Via Lutris / Wine",
+      "updated": "2026-04",
+      "detail": "No native client; works through Lutris with Wine.",
+      "alt": ""
+    },
+    {
+      "name": "LM Studio",
+      "dev": "LM Studio",
+      "cat": "AI",
+      "status": "native",
+      "version": "Official AppImage",
+      "updated": "2026-09",
+      "detail": "Run local LLMs with a GUI; official Linux builds.",
+      "alt": "Ollama, GPT4All"
+    },
+    {
+      "name": "Perplexity",
+      "dev": "Perplexity AI",
+      "cat": "AI",
+      "status": "web",
+      "version": "Web / PWA",
+      "updated": "2026-06",
+      "detail": "No desktop app for Linux; web version is complete.",
+      "alt": ""
+    },
+    {
+      "name": "OpenCode",
+      "dev": "OpenCode",
+      "cat": "Developer",
+      "status": "native",
+      "version": "Official install script",
+      "updated": "2026-10",
+      "detail": "Open-source terminal AI coding agent; curl-installable on Linux.",
+      "alt": ""
+    },
+    {
+      "name": "LINE",
+      "dev": "LY Corp",
+      "cat": "Communication",
+      "status": "none",
+      "version": "—",
+      "updated": "2026-04",
+      "detail": "Desktop app is Windows/Mac/mobile only; no Linux client.",
+      "alt": "Telegram, Signal"
+    },
+    {
+      "name": "Messenger",
+      "dev": "Meta",
+      "cat": "Communication",
+      "status": "web",
+      "version": "facebook.com/messages",
+      "updated": "2026-10",
+      "detail": "Standalone messenger.com + desktop app retired April 2026; chat continues at facebook.com/messages and mobile.",
+      "alt": ""
+    },
+    {
+      "name": "FreeCAD",
+      "dev": "FreeCAD",
+      "cat": "CAD & 3D",
+      "status": "native",
+      "version": "Repo / Flatpak / AppImage",
+      "updated": "2026-09",
+      "detail": "Open-source parametric CAD, native everywhere.",
+      "alt": ""
+    },
+    {
+      "name": "LibreCAD",
+      "dev": "LibreCAD",
+      "cat": "CAD & 3D",
+      "status": "native",
+      "version": "Repo / Flatpak / AppImage",
+      "updated": "2026-07",
+      "detail": "Free 2D CAD, native on Linux.",
+      "alt": ""
+    },
+    {
+      "name": "OpenSCAD",
+      "dev": "OpenSCAD",
+      "cat": "CAD & 3D",
+      "status": "native",
+      "version": "Repo / Flatpak",
+      "updated": "2026-07",
+      "detail": "The programmer's solid 3D CAD modeller, native.",
+      "alt": ""
+    },
+    {
+      "name": "KiCad",
+      "dev": "KiCad",
+      "cat": "CAD & 3D",
+      "status": "native",
+      "version": "Repo / Flatpak",
+      "updated": "2026-09",
+      "detail": "The open-source PCB/electronics standard, native.",
+      "alt": "Altium (no Linux)"
+    },
+    {
+      "name": "AutoCAD",
+      "dev": "Autodesk",
+      "cat": "CAD & 3D",
+      "status": "none",
+      "version": "—",
+      "updated": "2026-02",
+      "detail": "No Linux version — the industry's biggest CAD gap.",
+      "alt": "FreeCAD, LibreCAD, Onshape (web)"
+    },
+    {
+      "name": "SolidWorks",
+      "dev": "Dassault",
+      "cat": "CAD & 3D",
+      "status": "none",
+      "version": "—",
+      "updated": "2026-02",
+      "detail": "No Linux version.",
+      "alt": "FreeCAD, Onshape (web)"
+    },
+    {
+      "name": "Fusion 360",
+      "dev": "Autodesk",
+      "cat": "CAD & 3D",
+      "status": "wine",
+      "version": "Via Wine / Proton (unofficial)",
+      "updated": "2026-10",
+      "detail": "No native client, but runs via actively maintained community Wine/Proton installer scripts.",
+      "alt": "FreeCAD, Onshape (web)"
+    },
+    {
+      "name": "SketchUp",
+      "dev": "Trimble",
+      "cat": "CAD & 3D",
+      "status": "web",
+      "version": "Web app (Free / Shop)",
+      "updated": "2026-04",
+      "detail": "Desktop Pro is Win/Mac only; browser versions are complete.",
+      "alt": ""
+    },
+    {
+      "name": "Onshape",
+      "dev": "PTC",
+      "cat": "CAD & 3D",
+      "status": "web",
+      "version": "Full browser CAD",
+      "updated": "2026-08",
+      "detail": "Pro-grade parametric CAD running entirely in the browser.",
+      "alt": ""
+    },
+    {
+      "name": "Autodesk Maya",
+      "dev": "Autodesk",
+      "cat": "CAD & 3D",
+      "status": "native",
+      "version": "Official Linux (.rpm)",
+      "updated": "2026-07",
+      "detail": "Pro VFX standard with official Linux builds.",
+      "alt": "Blender"
+    },
+    {
+      "name": "Houdini",
+      "dev": "SideFX",
+      "cat": "CAD & 3D",
+      "status": "native",
+      "version": "Official Linux builds",
+      "updated": "2026-08",
+      "detail": "VFX powerhouse where Linux is a first-class citizen.",
+      "alt": "Blender"
+    },
+    {
+      "name": "Unity",
+      "dev": "Unity",
+      "cat": "CAD & 3D",
+      "status": "native",
+      "version": "Official Linux editor",
+      "updated": "2026-08",
+      "detail": "Unity Hub and editor ship Linux builds.",
+      "alt": "Godot"
+    },
+    {
+      "name": "Unreal Engine",
+      "dev": "Epic Games",
+      "cat": "CAD & 3D",
+      "status": "native",
+      "version": "Linux editor support",
+      "updated": "2026-06",
+      "detail": "Editor runs on Linux; marketplace content varies.",
+      "alt": "Godot"
+    },
+    {
+      "name": "Godot",
+      "dev": "Godot",
+      "cat": "CAD & 3D",
+      "status": "native",
+      "version": "Repo / Steam / Flatpak",
+      "updated": "2026-09",
+      "detail": "Open-source engine where Linux is first-class.",
+      "alt": ""
+    },
+    {
+      "name": "Cura",
+      "dev": "UltiMaker",
+      "cat": "CAD & 3D",
+      "status": "native",
+      "version": "Official AppImage",
+      "updated": "2026-08",
+      "detail": "The standard FDM 3D-printing slicer, official Linux builds.",
+      "alt": "PrusaSlicer, OrcaSlicer"
+    },
+    {
+      "name": "PrusaSlicer",
+      "dev": "Prusa",
+      "cat": "CAD & 3D",
+      "status": "native",
+      "version": "AppImage / Flatpak",
+      "updated": "2026-08",
+      "detail": "Official Linux builds from Prusa.",
+      "alt": ""
+    },
+    {
+      "name": "Bambu Studio",
+      "dev": "Bambu Lab",
+      "cat": "CAD & 3D",
+      "status": "native",
+      "version": "Official AppImage",
+      "updated": "2026-09",
+      "detail": "Official Linux releases on GitHub.",
+      "alt": "OrcaSlicer"
+    },
+    {
+      "name": "ZBrush",
+      "dev": "Maxon",
+      "cat": "CAD & 3D",
+      "status": "none",
+      "version": "—",
+      "updated": "2026-02",
+      "detail": "Windows/Mac only.",
+      "alt": "Blender (sculpt mode)"
+    },
+    {
+      "name": "Cinema 4D",
+      "dev": "Maxon",
+      "cat": "CAD & 3D",
+      "status": "none",
+      "version": "—",
+      "updated": "2026-02",
+      "detail": "Windows/Mac only.",
+      "alt": "Blender"
+    },
+    {
+      "name": "Substance 3D Painter",
+      "dev": "Adobe",
+      "cat": "CAD & 3D",
+      "status": "none",
+      "version": "—",
+      "updated": "2026-02",
+      "detail": "No Linux version.",
+      "alt": "ArmorPaint (native), Blender"
+    },
+    {
+      "name": "Microsoft To Do",
+      "dev": "Microsoft",
+      "cat": "Productivity",
+      "status": "web",
+      "version": "Web / PWA",
+      "updated": "2026-10",
+      "detail": "No Linux app; use the web version or install as PWA.",
+      "alt": ""
+    },
+    {
+      "name": "Airtable",
+      "dev": "Airtable",
+      "cat": "Productivity",
+      "status": "web",
+      "version": "Web app",
+      "updated": "2026-10",
+      "detail": "No Linux desktop app (Win/Mac only); web version is complete.",
+      "alt": ""
+    },
+    {
+      "name": "Miro",
+      "dev": "Miro",
+      "cat": "Productivity",
+      "status": "web",
+      "version": "Web app",
+      "updated": "2026-10",
+      "detail": "Desktop boards are Win/Mac only; web whiteboard is complete.",
+      "alt": ""
+    },
+    {
+      "name": "Simplenote",
+      "dev": "Automattic",
+      "cat": "Productivity",
+      "status": "native",
+      "version": "Official Linux builds",
+      "updated": "2026-10",
+      "detail": "Lightweight notes app with official Linux releases.",
+      "alt": ""
+    },
+    {
+      "name": "Zettlr",
+      "dev": "Zettlr",
+      "cat": "Productivity",
+      "status": "native",
+      "version": "AppImage / .deb",
+      "updated": "2026-10",
+      "detail": "Markdown academic writing with official Linux builds.",
+      "alt": ""
+    },
+    {
+      "name": "Mailspring",
+      "dev": "Foundry376",
+      "cat": "Productivity",
+      "status": "native",
+      "version": "Official .deb / Snap",
+      "updated": "2026-10",
+      "detail": "Fast mail client with official Linux builds.",
+      "alt": "Thunderbird"
+    },
+    {
+      "name": "TeamViewer",
+      "dev": "TeamViewer",
+      "cat": "Productivity",
+      "status": "native",
+      "version": "Official .deb / .rpm",
+      "updated": "2026-10",
+      "detail": "Remote desktop with official Linux builds.",
+      "alt": ""
+    },
+    {
+      "name": "AnyDesk",
+      "dev": "AnyDesk",
+      "cat": "Productivity",
+      "status": "native",
+      "version": "Official .deb / .rpm",
+      "updated": "2026-10",
+      "detail": "Remote desktop with official Linux builds.",
+      "alt": "RustDesk (native)"
+    },
+    {
+      "name": "VNC Viewer",
+      "dev": "RealVNC",
+      "cat": "Productivity",
+      "status": "native",
+      "version": "Official Linux builds",
+      "updated": "2026-10",
+      "detail": "RealVNC ships a native Linux viewer.",
+      "alt": "Remmina (native)"
+    },
+    {
+      "name": "Microsoft Remote Desktop",
+      "dev": "Microsoft",
+      "cat": "Productivity",
+      "status": "none",
+      "version": "—",
+      "updated": "2026-10",
+      "detail": "No official Linux client.",
+      "alt": "Remmina, FreeRDP"
+    },
+    {
+      "name": "Enpass",
+      "dev": "Enpass",
+      "cat": "Productivity",
+      "status": "native",
+      "version": "Official .deb / AppImage",
+      "updated": "2026-10",
+      "detail": "Offline password manager with Linux builds.",
+      "alt": ""
+    },
+    {
+      "name": "LastPass",
+      "dev": "LogMeIn",
+      "cat": "Productivity",
+      "status": "web",
+      "version": "Extension / web vault",
+      "updated": "2026-10",
+      "detail": "No Linux desktop app; browser extension + web vault cover it.",
+      "alt": "Bitwarden (native)"
+    },
+    {
+      "name": "Alfred",
+      "dev": "Running with Crayons",
+      "cat": "Productivity",
+      "status": "none",
+      "version": "—",
+      "updated": "2026-10",
+      "detail": "Mac only.",
+      "alt": "Ulauncher, Albert"
+    },
+    {
+      "name": "Rectangle",
+      "dev": "Rectangle",
+      "cat": "Productivity",
+      "status": "none",
+      "version": "—",
+      "updated": "2026-10",
+      "detail": "Mac only (free).",
+      "alt": "Tiling Assistant, Pop Shell"
+    },
+    {
+      "name": "Eclipse",
+      "dev": "Eclipse Foundation",
+      "cat": "Developer",
+      "status": "native",
+      "version": "Official Linux builds",
+      "updated": "2026-10",
+      "detail": "Classic Java IDE, native on Linux.",
+      "alt": ""
+    },
+    {
+      "name": "NetBeans",
+      "dev": "Apache",
+      "cat": "Developer",
+      "status": "native",
+      "version": "Official Linux builds",
+      "updated": "2026-10",
+      "detail": "Apache Java IDE with Linux releases.",
+      "alt": ""
+    },
+    {
+      "name": "Qt Creator",
+      "dev": "The Qt Company",
+      "cat": "Developer",
+      "status": "native",
+      "version": "Official Linux builds",
+      "updated": "2026-10",
+      "detail": "C++ IDE where Linux is first-class.",
+      "alt": ""
+    },
+    {
+      "name": "Insomnia",
+      "dev": "Kong",
+      "cat": "Developer",
+      "status": "native",
+      "version": "Official Snap / .deb",
+      "updated": "2026-10",
+      "detail": "REST client with official Linux builds.",
+      "alt": "Bruno (native)"
+    },
+    {
+      "name": "Warp",
+      "dev": "Warp",
+      "cat": "Developer",
+      "status": "native",
+      "version": "Official .deb / AppImage",
+      "updated": "2026-10",
+      "detail": "AI-powered terminal, on Linux since 2024.",
+      "alt": ""
+    },
+    {
+      "name": "Alacritty",
+      "dev": "Alacritty",
+      "cat": "Developer",
+      "status": "native",
+      "version": "Repo / Flatpak",
+      "updated": "2026-10",
+      "detail": "GPU-accelerated terminal emulator, native.",
+      "alt": ""
+    },
+    {
+      "name": "Kitty",
+      "dev": "Kovid Goyal",
+      "cat": "Developer",
+      "status": "native",
+      "version": "Official Linux builds",
+      "updated": "2026-10",
+      "detail": "Fast scriptable terminal, Linux-first.",
+      "alt": ""
+    },
+    {
+      "name": "Neovim",
+      "dev": "Neovim",
+      "cat": "Developer",
+      "status": "native",
+      "version": "Repo / AppImage",
+      "updated": "2026-10",
+      "detail": "Hyperextensible Vim fork, native everywhere.",
+      "alt": ""
+    },
+    {
+      "name": "VMware Workstation",
+      "dev": "VMware",
+      "cat": "Developer",
+      "status": "native",
+      "version": "Official Linux (.bundle)",
+      "updated": "2026-10",
+      "detail": "Pro VMs with official Linux builds. (Fusion is Mac-only.)",
+      "alt": "VirtualBox, GNOME Boxes"
+    },
+    {
+      "name": "Tidal",
+      "dev": "TIDAL",
+      "cat": "Media",
+      "status": "web",
+      "version": "Web player",
+      "updated": "2026-10",
+      "detail": "No Linux desktop app; web player plus unofficial tidal-hifi Flatpak.",
+      "alt": "Spotify (native)"
+    },
+    {
+      "name": "mpv",
+      "dev": "mpv",
+      "cat": "Media",
+      "status": "native",
+      "version": "Repo / Flatpak",
+      "updated": "2026-10",
+      "detail": "Minimal powerhouse video player, native.",
+      "alt": ""
+    },
+    {
+      "name": "RawTherapee",
+      "dev": "RawTherapee",
+      "cat": "Media",
+      "status": "native",
+      "version": "Repo / AppImage",
+      "updated": "2026-10",
+      "detail": "RAW photo processor, native on Linux.",
+      "alt": "Darktable"
+    },
+    {
+      "name": "Shotcut",
+      "dev": "Shotcut",
+      "cat": "Media",
+      "status": "native",
+      "version": "Flatpak / AppImage",
+      "updated": "2026-10",
+      "detail": "Open-source video editor with official Linux builds.",
+      "alt": "Kdenlive"
+    },
+    {
+      "name": "Lightworks",
+      "dev": "LWKS",
+      "cat": "Media",
+      "status": "native",
+      "version": "Official .deb / .rpm",
+      "updated": "2026-10",
+      "detail": "Pro NLE with official Linux builds.",
+      "alt": ""
+    },
+    {
+      "name": "Ardour",
+      "dev": "Ardour",
+      "cat": "Media",
+      "status": "native",
+      "version": "Repo / Flatpak",
+      "updated": "2026-10",
+      "detail": "Professional open DAW, Linux-first.",
+      "alt": ""
+    },
+    {
+      "name": "LMMS",
+      "dev": "LMMS",
+      "cat": "Media",
+      "status": "native",
+      "version": "Repo / AppImage",
+      "updated": "2026-10",
+      "detail": "Free beat-making DAW, native.",
+      "alt": ""
+    },
+    {
+      "name": "Mixxx",
+      "dev": "Mixxx",
+      "cat": "Media",
+      "status": "native",
+      "version": "Repo",
+      "updated": "2026-10",
+      "detail": "Free DJ software, native on Linux.",
+      "alt": ""
+    },
+    {
+      "name": "fre:ac",
+      "dev": "fre:ac",
+      "cat": "Media",
+      "status": "native",
+      "version": "Repo / Flatpak / Snap",
+      "updated": "2026-10",
+      "detail": "Open-source audio converter, native.",
+      "alt": ""
+    },
+    {
+      "name": "World of Warcraft",
+      "dev": "Blizzard",
+      "cat": "Gaming",
+      "status": "wine",
+      "version": "Via Lutris / Wine",
+      "updated": "2026-10",
+      "detail": "No native client; long-standing Gold rating under Wine/Lutris.",
+      "alt": ""
+    },
+    {
+      "name": "Dota 2",
+      "dev": "Valve",
+      "cat": "Gaming",
+      "status": "native",
+      "version": "Steam Linux build",
+      "updated": "2026-10",
+      "detail": "Valve's MOBA, native on Linux.",
+      "alt": ""
+    },
+    {
+      "name": "Team Fortress 2",
+      "dev": "Valve",
+      "cat": "Gaming",
+      "status": "native",
+      "version": "Steam Linux build",
+      "updated": "2026-10",
+      "detail": "Free-to-play classic, native on Linux.",
+      "alt": ""
+    },
+    {
+      "name": "Tor Browser",
+      "dev": "Tor Project",
+      "cat": "Browsers",
+      "status": "native",
+      "version": "Official Linux builds",
+      "updated": "2026-10",
+      "detail": "Privacy browser with official Linux releases.",
+      "alt": ""
+    },
+    {
+      "name": "Waterfox",
+      "dev": "Waterfox",
+      "cat": "Browsers",
+      "status": "native",
+      "version": "Official Linux builds",
+      "updated": "2026-10",
+      "detail": "Privacy Firefox fork with Linux builds.",
+      "alt": "LibreWolf (native)"
+    },
+    {
+      "name": "Mattermost",
+      "dev": "Mattermost",
+      "cat": "Communication",
+      "status": "native",
+      "version": "Official .deb / Flatpak",
+      "updated": "2026-10",
+      "detail": "Team chat with official Linux desktop builds.",
+      "alt": ""
+    },
+    {
+      "name": "Mumble",
+      "dev": "Mumble",
+      "cat": "Communication",
+      "status": "native",
+      "version": "Repo",
+      "updated": "2026-10",
+      "detail": "Low-latency open voice chat, native.",
+      "alt": ""
+    },
+    {
+      "name": "TeamSpeak",
+      "dev": "TeamSpeak",
+      "cat": "Communication",
+      "status": "native",
+      "version": "Official Linux client",
+      "updated": "2026-10",
+      "detail": "Voice chat with a native Linux client.",
+      "alt": ""
+    },
+    {
+      "name": "Proton VPN",
+      "dev": "Proton",
+      "cat": "Privacy & VPN",
+      "status": "native",
+      "version": "Official Linux app",
+      "updated": "2026-10",
+      "detail": "Official GUI app for Linux (.deb/.rpm).",
+      "alt": ""
+    },
+    {
+      "name": "NordVPN",
+      "dev": "NordVPN",
+      "cat": "Privacy & VPN",
+      "status": "native",
+      "version": "Official Linux app",
+      "updated": "2026-10",
+      "detail": "Official CLI + GUI for Linux.",
+      "alt": ""
+    },
+    {
+      "name": "Tailscale",
+      "dev": "Tailscale",
+      "cat": "Privacy & VPN",
+      "status": "native",
+      "version": "Official .deb / script",
+      "updated": "2026-10",
+      "detail": "Mesh VPN where Linux is first-class.",
+      "alt": ""
+    },
+    {
+      "name": "Surfshark",
+      "dev": "Surfshark",
+      "cat": "Privacy & VPN",
+      "status": "native",
+      "version": "Official Linux GUI app",
+      "updated": "2026-10",
+      "detail": "Official GUI + CLI for Linux.",
+      "alt": ""
+    },
+    {
+      "name": "ExpressVPN",
+      "dev": "ExpressVPN",
+      "cat": "Privacy & VPN",
+      "status": "native",
+      "version": "Official Linux CLI",
+      "updated": "2026-10",
+      "detail": "Linux covered via official CLI app (.deb/.rpm).",
+      "alt": ""
+    },
+    {
+      "name": "Windscribe",
+      "dev": "Windscribe",
+      "cat": "Privacy & VPN",
+      "status": "native",
+      "version": "Official .deb / .rpm",
+      "updated": "2026-10",
+      "detail": "VPN with official Linux builds and GUI.",
+      "alt": ""
+    },
+    {
+      "name": "Transmission",
+      "dev": "Transmission",
+      "cat": "Utilities",
+      "status": "native",
+      "version": "Preinstalled / repo",
+      "updated": "2026-10",
+      "detail": "Lightweight torrent client, often preinstalled.",
+      "alt": ""
+    },
+    {
+      "name": "qBittorrent",
+      "dev": "qBittorrent",
+      "cat": "Utilities",
+      "status": "native",
+      "version": "Repo / Flatpak",
+      "updated": "2026-10",
+      "detail": "Full-featured torrent client, native.",
+      "alt": ""
+    }
+  ],
+  "logos": {
+    "Google Chrome": {
+      "u": "https://cdn.simpleicons.org/googlechrome",
+      "d": "google.com"
+    },
+    "Firefox": {
+      "u": "https://cdn.simpleicons.org/firefoxbrowser",
+      "d": "mozilla.org"
+    },
+    "Brave": {
+      "u": "https://cdn.simpleicons.org/brave",
+      "d": "brave.com"
+    },
+    "Microsoft Edge": {
+      "u": "https://cdn.jsdelivr.net/npm/simple-icons/icons/microsoftedge.svg",
+      "d": "microsoft.com"
+    },
+    "Safari": {
+      "u": "https://cdn.simpleicons.org/safari",
+      "d": "apple.com"
+    },
+    "Arc": {
+      "u": "https://cdn.simpleicons.org/arc",
+      "d": "arc.net"
+    },
+    "VS Code": {
+      "u": "https://cdn.jsdelivr.net/npm/simple-icons/icons/visualstudiocode.svg",
+      "d": "code.visualstudio.com"
+    },
+    "Sublime Text": {
+      "u": "https://cdn.simpleicons.org/sublimetext",
+      "d": "sublimetext.com"
+    },
+    "IntelliJ IDEA": {
+      "u": "https://cdn.simpleicons.org/intellijidea",
+      "d": "jetbrains.com"
+    },
+    "Docker Desktop": {
+      "u": "https://cdn.simpleicons.org/docker",
+      "d": "docker.com"
+    },
+    "Postman": {
+      "u": "https://cdn.simpleicons.org/postman",
+      "d": "postman.com"
+    },
+    "GitHub Desktop": {
+      "u": "https://cdn.simpleicons.org/github",
+      "d": "github.com"
+    },
+    "Figma": {
+      "u": "https://cdn.simpleicons.org/figma",
+      "d": "figma.com"
+    },
+    "Adobe Photoshop": {
+      "u": "https://cdn.jsdelivr.net/npm/simple-icons/icons/adobephotoshop.svg",
+      "d": "adobe.com"
+    },
+    "Adobe Illustrator": {
+      "u": "https://cdn.jsdelivr.net/npm/simple-icons/icons/adobeillustrator.svg",
+      "d": "adobe.com"
+    },
+    "Blender": {
+      "u": "https://cdn.simpleicons.org/blender",
+      "d": "blender.org"
+    },
+    "GIMP": {
+      "u": "https://cdn.simpleicons.org/gimp",
+      "d": "gimp.org"
+    },
+    "Krita": {
+      "u": "https://cdn.simpleicons.org/krita",
+      "d": "krita.org"
+    },
+    "DaVinci Resolve": {
+      "u": "https://cdn.jsdelivr.net/npm/simple-icons/icons/blackmagicdesign.svg",
+      "d": "blackmagicdesign.com"
+    },
+    "Canva": {
+      "u": "https://cdn.jsdelivr.net/npm/simple-icons/icons/canva.svg",
+      "d": "canva.com"
+    },
+    "Affinity Photo": {
+      "u": "https://cdn.jsdelivr.net/npm/simple-icons/icons/affinityphoto.svg",
+      "d": "affinity.serif.com"
+    },
+    "Microsoft Office": {
+      "u": "https://cdn.jsdelivr.net/npm/simple-icons/icons/microsoftoffice.svg",
+      "d": "microsoft.com"
+    },
+    "LibreOffice": {
+      "u": "https://cdn.simpleicons.org/libreoffice",
+      "d": "libreoffice.org"
+    },
+    "Notion": {
+      "u": "https://cdn.simpleicons.org/notion",
+      "d": "notion.so"
+    },
+    "Obsidian": {
+      "u": "https://cdn.simpleicons.org/obsidian",
+      "d": "obsidian.md"
+    },
+    "Dropbox": {
+      "u": "https://cdn.simpleicons.org/dropbox",
+      "d": "dropbox.com"
+    },
+    "1Password": {
+      "u": "https://cdn.simpleicons.org/1password",
+      "d": "1password.com"
+    },
+    "Evernote": {
+      "u": "https://cdn.simpleicons.org/evernote",
+      "d": "evernote.com"
+    },
+    "Slack": {
+      "u": "https://cdn.jsdelivr.net/npm/simple-icons/icons/slack.svg",
+      "d": "slack.com"
+    },
+    "Discord": {
+      "u": "https://cdn.simpleicons.org/discord",
+      "d": "discord.com"
+    },
+    "Zoom": {
+      "u": "https://cdn.simpleicons.org/zoom",
+      "d": "zoom.us"
+    },
+    "Microsoft Teams": {
+      "u": "https://cdn.jsdelivr.net/npm/simple-icons/icons/microsoftteams.svg",
+      "d": "microsoft.com"
+    },
+    "Telegram": {
+      "u": "https://cdn.simpleicons.org/telegram",
+      "d": "telegram.org"
+    },
+    "Signal": {
+      "u": "https://cdn.simpleicons.org/signal",
+      "d": "signal.org"
+    },
+    "WhatsApp": {
+      "u": "https://cdn.simpleicons.org/whatsapp",
+      "d": "whatsapp.com"
+    },
+    "Spotify": {
+      "u": "https://cdn.simpleicons.org/spotify",
+      "d": "spotify.com"
+    },
+    "VLC": {
+      "u": "https://cdn.jsdelivr.net/npm/simple-icons/icons/vlcmediaplayer.svg",
+      "d": "videolan.org"
+    },
+    "OBS Studio": {
+      "u": "https://cdn.simpleicons.org/obsstudio",
+      "d": "obsproject.com"
+    },
+    "Apple Music / iTunes": {
+      "u": "https://cdn.simpleicons.org/applemusic",
+      "d": "apple.com"
+    },
+    "Steam": {
+      "u": "https://cdn.simpleicons.org/steam",
+      "d": "steampowered.com"
+    },
+    "Epic Games Launcher": {
+      "u": "https://cdn.simpleicons.org/epicgames",
+      "d": "epicgames.com"
+    },
+    "GOG Galaxy": {
+      "u": "https://cdn.simpleicons.org/gogdotcom",
+      "d": "gog.com"
+    },
+    "Minecraft Java": {
+      "u": "https://cdn.jsdelivr.net/npm/simple-icons/icons/minecraft.svg",
+      "d": "minecraft.net"
+    },
+    "Adobe Premiere": {
+      "u": "https://cdn.jsdelivr.net/npm/simple-icons/icons/adobepremierepro.svg",
+      "d": "adobe.com"
+    },
+    "Opera": {
+      "u": "https://cdn.simpleicons.org/opera",
+      "d": "opera.com"
+    },
+    "Vivaldi": {
+      "u": "https://cdn.simpleicons.org/vivaldi",
+      "d": "vivaldi.com"
+    },
+    "Cursor": {
+      "u": "https://cdn.simpleicons.org/cursor",
+      "d": "cursor.com"
+    },
+    "Zed": {
+      "u": "https://cdn.simpleicons.org/zedindustries",
+      "d": "zed.dev"
+    },
+    "Android Studio": {
+      "u": "https://cdn.simpleicons.org/androidstudio",
+      "d": "developer.android.com"
+    },
+    "PyCharm": {
+      "u": "https://cdn.simpleicons.org/pycharm",
+      "d": "jetbrains.com"
+    },
+    "DBeaver": {
+      "u": "https://cdn.simpleicons.org/dbeaver",
+      "d": "dbeaver.io"
+    },
+    "Linear": {
+      "u": "https://cdn.simpleicons.org/linear",
+      "d": "linear.app"
+    },
+    "Inkscape": {
+      "u": "https://cdn.simpleicons.org/inkscape",
+      "d": "inkscape.org"
+    },
+    "After Effects": {
+      "u": "https://cdn.jsdelivr.net/npm/simple-icons/icons/adobeaftereffects.svg",
+      "d": "adobe.com"
+    },
+    "Lightroom": {
+      "u": "https://cdn.jsdelivr.net/npm/simple-icons/icons/adobelightroom.svg",
+      "d": "adobe.com"
+    },
+    "Darktable": {
+      "u": "https://www.google.com/s2/favicons?domain=darktable.org&sz=128",
+      "d": "darktable.org"
+    },
+    "CapCut": {
+      "u": "https://www.google.com/s2/favicons?domain=capcut.com&sz=128",
+      "d": "capcut.com"
+    },
+    "Thunderbird": {
+      "u": "https://cdn.simpleicons.org/thunderbird",
+      "d": "thunderbird.net"
+    },
+    "Bitwarden": {
+      "u": "https://cdn.simpleicons.org/bitwarden",
+      "d": "bitwarden.com"
+    },
+    "Google Drive": {
+      "u": "https://cdn.simpleicons.org/googledrive",
+      "d": "drive.google.com"
+    },
+    "Todoist": {
+      "u": "https://cdn.simpleicons.org/todoist",
+      "d": "todoist.com"
+    },
+    "Trello": {
+      "u": "https://cdn.simpleicons.org/trello",
+      "d": "trello.com"
+    },
+    "Audacity": {
+      "u": "https://cdn.simpleicons.org/audacity",
+      "d": "audacityteam.org"
+    },
+    "REAPER": {
+      "u": "https://www.google.com/s2/favicons?domain=cockos.com&sz=128",
+      "d": "cockos.com"
+    },
+    "FL Studio": {
+      "u": "https://www.google.com/s2/favicons?domain=image-line.com&sz=128",
+      "d": "image-line.com"
+    },
+    "HandBrake": {
+      "u": "https://www.google.com/s2/favicons?domain=handbrake.fr&sz=128",
+      "d": "handbrake.fr"
+    },
+    "Stremio": {
+      "u": "https://cdn.simpleicons.org/stremio",
+      "d": "stremio.com"
+    },
+    "Lutris": {
+      "u": "https://cdn.simpleicons.org/lutris",
+      "d": "lutris.net"
+    },
+    "Heroic Launcher": {
+      "u": "https://cdn.simpleicons.org/heroicgameslauncher",
+      "d": "heroicgameslauncher.com"
+    },
+    "Battle.net": {
+      "u": "https://cdn.simpleicons.org/battledotnet",
+      "d": "battle.net"
+    },
+    "Roblox": {
+      "u": "https://cdn.simpleicons.org/roblox",
+      "d": "roblox.com"
+    },
+    "Ollama": {
+      "u": "https://cdn.simpleicons.org/ollama",
+      "d": "ollama.com"
+    },
+    "ChatGPT": {
+      "u": "https://cdn.jsdelivr.net/npm/simple-icons/icons/openai.svg",
+      "d": "chatgpt.com"
+    },
+    "Claude": {
+      "u": "https://cdn.simpleicons.org/anthropic",
+      "d": "claude.ai"
+    },
+    "Kdenlive": {
+      "u": "https://cdn.simpleicons.org/kdenlive",
+      "d": "kdenlive.org"
+    },
+    "Aseprite": {
+      "u": "https://cdn.simpleicons.org/aseprite",
+      "d": "aseprite.org"
+    },
+    "Penpot": {
+      "u": "https://cdn.simpleicons.org/penpot",
+      "d": "penpot.app"
+    },
+    "Sketch": {
+      "u": "https://cdn.simpleicons.org/sketch",
+      "d": "sketch.com"
+    },
+    "Ableton Live": {
+      "u": "https://www.google.com/s2/favicons?domain=ableton.com&sz=128",
+      "d": "ableton.com"
+    },
+    "Bitwig Studio": {
+      "u": "https://cdn.simpleicons.org/bitwig",
+      "d": "bitwig.com"
+    },
+    "Kodi": {
+      "u": "https://cdn.simpleicons.org/kodi",
+      "d": "kodi.tv"
+    },
+    "Plex": {
+      "u": "https://cdn.simpleicons.org/plex",
+      "d": "plex.tv"
+    },
+    "WeChat": {
+      "u": "https://cdn.simpleicons.org/wechat",
+      "d": "wechat.com"
+    },
+    "FaceTime": {
+      "u": "https://www.google.com/s2/favicons?domain=apple.com&sz=128",
+      "d": "apple.com"
+    },
+    "Viber": {
+      "u": "https://cdn.simpleicons.org/viber",
+      "d": "viber.com"
+    },
+    "Element": {
+      "u": "https://cdn.simpleicons.org/element",
+      "d": "element.io"
+    },
+    "Outlook": {
+      "u": "https://cdn.jsdelivr.net/npm/simple-icons/icons/microsoftoutlook.svg",
+      "d": "microsoft.com"
+    },
+    "OneDrive": {
+      "u": "https://cdn.jsdelivr.net/npm/simple-icons/icons/onedrive.svg",
+      "d": "onedrive.com"
+    },
+    "OnlyOffice": {
+      "u": "https://cdn.simpleicons.org/onlyoffice",
+      "d": "onlyoffice.com"
+    },
+    "Nextcloud": {
+      "u": "https://cdn.simpleicons.org/nextcloud",
+      "d": "nextcloud.com"
+    },
+    "Joplin": {
+      "u": "https://cdn.simpleicons.org/joplin",
+      "d": "joplinapp.org"
+    },
+    "Logseq": {
+      "u": "https://cdn.simpleicons.org/logseq",
+      "d": "logseq.com"
+    },
+    "Raycast": {
+      "u": "https://cdn.simpleicons.org/raycast",
+      "d": "raycast.com"
+    },
+    "KeePassXC": {
+      "u": "https://cdn.simpleicons.org/keepassxc",
+      "d": "keepassxc.org"
+    },
+    "GitKraken": {
+      "u": "https://cdn.simpleicons.org/gitkraken",
+      "d": "gitkraken.com"
+    },
+    "Bruno": {
+      "u": "https://cdn.simpleicons.org/bruno",
+      "d": "usebruno.com"
+    },
+    "TablePlus": {
+      "u": "https://www.google.com/s2/favicons?domain=tableplus.com&sz=128",
+      "d": "tableplus.com"
+    },
+    "itch.io": {
+      "u": "https://cdn.simpleicons.org/itchdotio",
+      "d": "itch.io"
+    },
+    "Baldur's Gate 3": {
+      "u": "https://www.google.com/s2/favicons?domain=larian.com&sz=128",
+      "d": "larian.com"
+    },
+    "Stardew Valley": {
+      "u": "https://www.google.com/s2/favicons?domain=stardewvalley.net&sz=128",
+      "d": "stardewvalley.net"
+    },
+    "Fortnite": {
+      "u": "https://cdn.simpleicons.org/fortnite",
+      "d": "fortnite.com"
+    },
+    "Valorant": {
+      "u": "https://cdn.simpleicons.org/riotgames",
+      "d": "riotgames.com"
+    },
+    "League of Legends": {
+      "u": "https://cdn.simpleicons.org/leagueoflegends",
+      "d": "leagueoflegends.com"
+    },
+    "EA App": {
+      "u": "https://www.google.com/s2/favicons?domain=ea.com&sz=128",
+      "d": "ea.com"
+    },
+    "Ubisoft Connect": {
+      "u": "https://cdn.simpleicons.org/ubisoft",
+      "d": "ubisoft.com"
+    },
+    "LM Studio": {
+      "u": "https://cdn.simpleicons.org/lmstudio",
+      "d": "lmstudio.ai"
+    },
+    "Perplexity": {
+      "u": "https://cdn.simpleicons.org/perplexity",
+      "d": "perplexity.ai"
+    },
+    "OpenCode": {
+      "u": "https://cdn.simpleicons.org/opencode",
+      "d": "opencode.ai"
+    },
+    "LINE": {
+      "u": "https://cdn.simpleicons.org/line",
+      "d": "line.me"
+    },
+    "Messenger": {
+      "u": "https://cdn.simpleicons.org/messenger",
+      "d": "messenger.com"
+    },
+    "FreeCAD": {
+      "u": "https://cdn.simpleicons.org/freecad",
+      "d": "freecad.org"
+    },
+    "LibreCAD": {
+      "u": "https://www.google.com/s2/favicons?domain=librecad.org&sz=128",
+      "d": "librecad.org"
+    },
+    "OpenSCAD": {
+      "u": "https://cdn.simpleicons.org/openscad",
+      "d": "openscad.org"
+    },
+    "KiCad": {
+      "u": "https://cdn.simpleicons.org/kicad",
+      "d": "kicad.org"
+    },
+    "AutoCAD": {
+      "u": "https://cdn.simpleicons.org/autodesk",
+      "d": "autodesk.com"
+    },
+    "SolidWorks": {
+      "u": "https://www.google.com/s2/favicons?domain=solidworks.com&sz=128",
+      "d": "solidworks.com"
+    },
+    "Fusion 360": {
+      "u": "https://cdn.simpleicons.org/autodesk",
+      "d": "autodesk.com"
+    },
+    "SketchUp": {
+      "u": "https://cdn.simpleicons.org/sketchup",
+      "d": "sketchup.com"
+    },
+    "Onshape": {
+      "u": "https://www.google.com/s2/favicons?domain=onshape.com&sz=128",
+      "d": "onshape.com"
+    },
+    "Autodesk Maya": {
+      "u": "https://cdn.simpleicons.org/autodesk",
+      "d": "autodesk.com"
+    },
+    "Houdini": {
+      "u": "https://cdn.simpleicons.org/houdini",
+      "d": "sidefx.com"
+    },
+    "Unity": {
+      "u": "https://cdn.simpleicons.org/unity",
+      "d": "unity.com"
+    },
+    "Unreal Engine": {
+      "u": "https://cdn.simpleicons.org/unrealengine",
+      "d": "unrealengine.com"
+    },
+    "Godot": {
+      "u": "https://cdn.simpleicons.org/godotengine",
+      "d": "godotengine.org"
+    },
+    "Cura": {
+      "u": "https://www.google.com/s2/favicons?domain=ultimaker.com&sz=128",
+      "d": "ultimaker.com"
+    },
+    "PrusaSlicer": {
+      "u": "https://www.google.com/s2/favicons?domain=prusa3d.com&sz=128",
+      "d": "prusa3d.com"
+    },
+    "Bambu Studio": {
+      "u": "https://cdn.simpleicons.org/bambulab",
+      "d": "bambulab.com"
+    },
+    "ZBrush": {
+      "u": "https://www.google.com/s2/favicons?domain=maxon.net&sz=128",
+      "d": "maxon.net"
+    },
+    "Cinema 4D": {
+      "u": "https://www.google.com/s2/favicons?domain=maxon.net&sz=128",
+      "d": "maxon.net"
+    },
+    "Substance 3D Painter": {
+      "u": "https://www.google.com/s2/favicons?domain=adobe.com&sz=128",
+      "d": "adobe.com"
+    },
+    "Microsoft To Do": {
+      "u": "https://www.google.com/s2/favicons?domain=todo.microsoft.com&sz=128",
+      "d": "todo.microsoft.com"
+    },
+    "Airtable": {
+      "u": "https://cdn.simpleicons.org/airtable",
+      "d": "airtable.com"
+    },
+    "Miro": {
+      "u": "https://cdn.simpleicons.org/miro",
+      "d": "miro.com"
+    },
+    "Simplenote": {
+      "u": "https://cdn.simpleicons.org/simplenote",
+      "d": "simplenote.com"
+    },
+    "Zettlr": {
+      "u": "https://cdn.simpleicons.org/zettlr",
+      "d": "zettlr.com"
+    },
+    "Mailspring": {
+      "u": "https://www.google.com/s2/favicons?domain=getmailspring.com&sz=128",
+      "d": "getmailspring.com"
+    },
+    "TeamViewer": {
+      "u": "https://cdn.simpleicons.org/teamviewer",
+      "d": "teamviewer.com"
+    },
+    "AnyDesk": {
+      "u": "https://cdn.simpleicons.org/anydesk",
+      "d": "anydesk.com"
+    },
+    "VNC Viewer": {
+      "u": "https://www.google.com/s2/favicons?domain=realvnc.com&sz=128",
+      "d": "realvnc.com"
+    },
+    "Microsoft Remote Desktop": {
+      "u": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128",
+      "d": "microsoft.com"
+    },
+    "Enpass": {
+      "u": "https://cdn.simpleicons.org/enpass",
+      "d": "enpass.io"
+    },
+    "LastPass": {
+      "u": "https://cdn.simpleicons.org/lastpass",
+      "d": "lastpass.com"
+    },
+    "Alfred": {
+      "u": "https://cdn.simpleicons.org/alfred",
+      "d": "alfredapp.com"
+    },
+    "Rectangle": {
+      "u": "https://www.google.com/s2/favicons?domain=rectangleapp.com&sz=128",
+      "d": "rectangleapp.com"
+    },
+    "Eclipse": {
+      "u": "https://cdn.simpleicons.org/eclipseide",
+      "d": "eclipse.org"
+    },
+    "NetBeans": {
+      "u": "https://www.google.com/s2/favicons?domain=netbeans.apache.org&sz=128",
+      "d": "netbeans.apache.org"
+    },
+    "Qt Creator": {
+      "u": "https://cdn.simpleicons.org/qt",
+      "d": "qt.io"
+    },
+    "Insomnia": {
+      "u": "https://cdn.simpleicons.org/insomnia",
+      "d": "insomnia.rest"
+    },
+    "Warp": {
+      "u": "https://cdn.simpleicons.org/warp",
+      "d": "warp.dev"
+    },
+    "Alacritty": {
+      "u": "https://cdn.simpleicons.org/alacritty",
+      "d": "alacritty.org"
+    },
+    "Kitty": {
+      "u": "https://www.google.com/s2/favicons?domain=sw.kovidgoyal.net&sz=128",
+      "d": "sw.kovidgoyal.net"
+    },
+    "Neovim": {
+      "u": "https://cdn.simpleicons.org/neovim",
+      "d": "neovim.io"
+    },
+    "VMware Workstation": {
+      "u": "https://cdn.simpleicons.org/vmware",
+      "d": "vmware.com"
+    },
+    "Tidal": {
+      "u": "https://cdn.simpleicons.org/tidal",
+      "d": "tidal.com"
+    },
+    "mpv": {
+      "u": "https://cdn.simpleicons.org/mpv",
+      "d": "mpv.io"
+    },
+    "RawTherapee": {
+      "u": "https://www.google.com/s2/favicons?domain=rawtherapee.com&sz=128",
+      "d": "rawtherapee.com"
+    },
+    "Shotcut": {
+      "u": "https://cdn.jsdelivr.net/npm/simple-icons/icons/shotcut.svg",
+      "d": "shotcut.org"
+    },
+    "Lightworks": {
+      "u": "https://www.google.com/s2/favicons?domain=lwks.com&sz=128",
+      "d": "lwks.com"
+    },
+    "Ardour": {
+      "u": "https://cdn.simpleicons.org/ardour",
+      "d": "ardour.org"
+    },
+    "LMMS": {
+      "u": "https://cdn.simpleicons.org/lmms",
+      "d": "lmms.io"
+    },
+    "Mixxx": {
+      "u": "https://www.google.com/s2/favicons?domain=mixxx.org&sz=128",
+      "d": "mixxx.org"
+    },
+    "fre:ac": {
+      "u": "https://www.google.com/s2/favicons?domain=freac.org&sz=128",
+      "d": "freac.org"
+    },
+    "World of Warcraft": {
+      "u": "https://www.google.com/s2/favicons?domain=blizzard.com&sz=128",
+      "d": "blizzard.com"
+    },
+    "Dota 2": {
+      "u": "https://cdn.simpleicons.org/dota2",
+      "d": "dota2.com"
+    },
+    "Team Fortress 2": {
+      "u": "https://www.google.com/s2/favicons?domain=teamfortress.com&sz=128",
+      "d": "teamfortress.com"
+    },
+    "Tor Browser": {
+      "u": "https://cdn.simpleicons.org/torbrowser",
+      "d": "torproject.org"
+    },
+    "Waterfox": {
+      "u": "https://www.google.com/s2/favicons?domain=waterfox.net&sz=128",
+      "d": "waterfox.net"
+    },
+    "Mattermost": {
+      "u": "https://cdn.simpleicons.org/mattermost",
+      "d": "mattermost.com"
+    },
+    "Mumble": {
+      "u": "https://cdn.simpleicons.org/mumble",
+      "d": "mumble.info"
+    },
+    "TeamSpeak": {
+      "u": "https://cdn.simpleicons.org/teamspeak",
+      "d": "teamspeak.com"
+    },
+    "Proton VPN": {
+      "u": "https://cdn.simpleicons.org/protonvpn",
+      "d": "protonvpn.com"
+    },
+    "NordVPN": {
+      "u": "https://cdn.simpleicons.org/nordvpn",
+      "d": "nordvpn.com"
+    },
+    "Tailscale": {
+      "u": "https://cdn.simpleicons.org/tailscale",
+      "d": "tailscale.com"
+    },
+    "Surfshark": {
+      "u": "https://cdn.simpleicons.org/surfshark",
+      "d": "surfshark.com"
+    },
+    "ExpressVPN": {
+      "u": "https://cdn.simpleicons.org/expressvpn",
+      "d": "expressvpn.com"
+    },
+    "Windscribe": {
+      "u": "https://www.google.com/s2/favicons?domain=windscribe.com&sz=128",
+      "d": "windscribe.com"
+    },
+    "Transmission": {
+      "u": "https://cdn.simpleicons.org/transmission",
+      "d": "transmissionbt.com"
+    },
+    "qBittorrent": {
+      "u": "https://cdn.simpleicons.org/qbittorrent",
+      "d": "qbittorrent.org"
+    }
+  }
+}
