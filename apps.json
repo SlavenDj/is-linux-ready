@@ -137,7 +137,7 @@
       "status": "none",
       "version": "—",
       "updated": "2026-10",
-      "detail": "No Linux version. Community Wine patches (2026) can install CC + Photoshop 2021/2025, but fragile and unofficial.",
+      "detail": "No Linux version. Jan 2026 Wine/Proton patches (mshtml/msxml3) + Neutron Project custom Wine can install CC + Photoshop 2021/2025, but fragile and unofficial.",
       "alt": "GIMP, Krita, Photopea (web)"
     },
     {
@@ -236,8 +236,8 @@
       "cat": "Productivity",
       "status": "web",
       "version": "Web / unofficial Electron",
-      "updated": "2026-05",
-      "detail": "No official Linux app. Web is complete; unofficial clients on Flathub.",
+      "updated": "2026-10",
+      "detail": "No stable official app. Web is complete; unofficial clients on Flathub. Sept 2026 release notes mention a pre-alpha Linux desktop soft launch (v7.35.x) but no download yet.",
       "alt": "Obsidian, AppFlowy (native)"
     },
     {
@@ -416,8 +416,8 @@
       "cat": "Gaming",
       "status": "wine",
       "version": "Via Heroic / Minigalaxy",
-      "updated": "2026-03",
-      "detail": "No native client; Heroic or Minigalaxy cover it.",
+      "updated": "2026-10",
+      "detail": "No native client yet; Heroic or Minigalaxy cover it. GOG confirmed July 2026 a native Galaxy for Linux is in active development (specialist hired). No timeline.",
       "alt": ""
     },
     {
@@ -1006,8 +1006,8 @@
       "cat": "Gaming",
       "status": "none",
       "version": "—",
-      "updated": "2026-05",
-      "detail": "Epic never enabled EAC/Vanguard for Linux; unplayable.",
+      "updated": "2026-10",
+      "detail": "Still unplayable today. Epic confirmed Oct 14, 2026 it will come to Linux via the new launcher, piloting rebuilt EAC Linux v2 (signed kernel + secure boot). No date; Steam Deck not supported yet.",
       "alt": "Apex via Proton (check status), Fall Guys via Proton"
     },
     {
